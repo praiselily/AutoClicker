@@ -97,7 +97,6 @@ $statusLabel.ForeColor = [System.Drawing.Color]::FromArgb(220, 50, 50)
 $statusLabel.TextAlign = "MiddleCenter"
 $statusPanel.Controls.Add($statusLabel)
 
-# Hotkey hint
 $hotkeyLabel = New-Object System.Windows.Forms.Label
 $hotkeyLabel.Location = New-Object System.Drawing.Point(10, 40)
 $hotkeyLabel.Size = New-Object System.Drawing.Size(300, 20)
@@ -140,7 +139,6 @@ $toggleFunction = {
 $toggleButton.Add_Click($toggleFunction)
 $form.Controls.Add($toggleButton)
 
-# Hotkey section
 $hotkeyGroupLabel = New-Object System.Windows.Forms.Label
 $hotkeyGroupLabel.Location = New-Object System.Drawing.Point(40, 210)
 $hotkeyGroupLabel.Size = New-Object System.Drawing.Size(150, 20)
