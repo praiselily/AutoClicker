@@ -100,7 +100,7 @@ $statusPanel.Controls.Add($statusLabel)
 $hotkeyLabel = New-Object System.Windows.Forms.Label
 $hotkeyLabel.Location = New-Object System.Drawing.Point(10, 40)
 $hotkeyLabel.Size = New-Object System.Drawing.Size(300, 20)
-$hotkeyLabel.Text = "Global Hotkey: F6 • Works in background"
+$hotkeyLabel.Text = "Global Hotkey: F6 • made by lily"
 $hotkeyLabel.Font = New-Object System.Drawing.Font("Segoe UI", 8)
 $hotkeyLabel.ForeColor = [System.Drawing.Color]::FromArgb(150, 150, 150)
 $hotkeyLabel.TextAlign = "MiddleCenter"
