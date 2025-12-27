@@ -201,7 +201,7 @@ $form.Controls.Add($titleLabel)
 $subtitleLabel = New-Object System.Windows.Forms.Label
 $subtitleLabel.Location = New-Object System.Drawing.Point(0, 90)
 $subtitleLabel.Size = New-Object System.Drawing.Size(420, 20)
-$subtitleLabel.Text = "Professional Auto-Clicker"
+$subtitleLabel.Text = "--- <3 ---"
 $subtitleLabel.Font = New-Object System.Drawing.Font("Segoe UI", 9)
 $subtitleLabel.ForeColor = [System.Drawing.Color]::FromArgb(120, 120, 120)
 $subtitleLabel.TextAlign = "MiddleCenter"
